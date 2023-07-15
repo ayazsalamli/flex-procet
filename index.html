@@ -1,78 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex Project 2</title>
     <style>
-       
-        
-        .cont{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 40px;
-            background-color: rgb(255, 0, 225);
-
-
-        }
-        .item{
-            flex: 1 0 200px;
-             margin: 10px;
-             background-color: rgb(140, 240, 170);
-             border-radius: 10px;
-             padding: 15px;
-
-            
-        }
-        .header{
-            display: flex;
-            height: 60px;
-            align-items:center ;
-            margin-left: 13px;
-            font-size: 25px;
-            z-index: 3;
-            background-color: aqua;
-            position: sticky;
-            color: rgb(151, 31, 31);
-            top: 0;
-        }
-        .img{
-            height: 100px;
-            width: 100px;       
-             background-image: url(nininint.jpg);
-             background-size: cover;
-             border-radius: 50%;
-             margin: auto 10px;           
-              }
-              .img1{
-                background-image: url(1.jpg);
-              }
-              .img2{
-                background-image: url(1.jpg);
-              }
-              .img3{
-                background-image: url(1.jpg);
-              }
-              .img4{
-                background-image: url(1.jpg);
-              }
-              .img5{
-                background-image: url(1.jpg);
-              }
-              .img6{
-                background-image: url(1.jpg);
-              }
-              .img7{
-                background-image: url(1.jpg);
-              }
-              .img8{
-                background-image: url(1.jpg);
-              }
-              .img9{
-                background-image: url(1.jpg);
-              
-              }
-              * {
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -97,87 +31,175 @@
 
         aside {
             display: flex;
-            width: 250px;
+            width: 150px;
             flex-shrink: 0;
             flex-direction: column;
             padding: 20px;
             border-right: 1px solid #ddd;
         }
-        main{
+
+        main {
             flex-grow: 1;
-            width: calc(100% - 250px);
+            width: calc(100% - 150px);
             height: calc(100% - 70px);
-            padding: 25px;
+            padding: 15px;
         }
-        button{
+
+        button {
             text-align: left;
             border: 1px solid #ddd;
             padding: 5px 10px;
         }
-        button:hover{
-            background-color: #ccc;
-        }
-              
 
+        button:hover {
+            background-color: lime;
+        }
+
+        .cont {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        .item {
+            flex: 1 0 200px;
+            background-color: khaki;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        h1{
+            text-align: center;
+        }
+        .img {
+            height: 100px;
+            width: 100px;
+            background-image: url(nininint.jpg);
+            background-size: cover;
+            border-radius: 50%;
+            margin: 10px auto;
+        }
+
+        .img1 {
+            background-image: url(4.jpg);
+        }
+
+        .img2 {
+            background-image: url(2.jpg);
+        }
+
+        .img3 {
+            background-image: url(nininint.jpg);
+        }
+
+        .img4 {
+            background-image: url(1.jpg);
+        }
+
+        .img5 {
+            background-image: url(5.jpg);
+        }
+
+        .img6 {
+            background-image: url(6.jpg);
+        }
+
+        .img7 {
+            background-image: url(7.jpg);
+        }
+
+        .img8 {
+            background-image: url(8.jpg);
+        }
+
+        .img9 {
+            background-image: url(9.jpg);
+
+        }
     </style>
 </head>
-<body>
-      <header>Header</header>
-    <aside>
-        <button > <a href="#aaa"></a>  hsr</button>
-        <button><a href="#mmm"></a>gnsh</button>
-        <button>hip</button>
-    </aside>
 
-     
-    </div>
-   
-    <div class="cont">
-        <div class="item">
-            <div class="img img1"></div>
-           
-            <h1 sektion="#aaa">murad  </h1>
-           <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
+<body>
+    <header>Header</header>
+    <aside>
+        <button>Home Page</button>
+        <button>Galery</button>
+        <button>About</button>
+        <button>Contact</button>
+    </aside>
+    <main>
+        <div class="cont">
+            <div class="item">
+                <h1 sektion="#aaa">murad </h1>
+                <div class="img img1"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <h1>ayaz </h1>
+                <div class="img img2"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <h1>murad </h1>
+                <div class="img img3"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
         </div>
-        <div class="item">
-            <h1>ayaz    </h1>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
+        <div class="cont">
+            <div class="item">
+                <h1>kitsune </h1>
+                <div class="img img4"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <h1>nanapoly </h1>
+                <div class="img img5"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <h1>vm </h1>
+                <div class="img img6"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
         </div>
-        <div class="item">  <h1>murad  </h1>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p></div>
-    </div>
-    <div class="cont">
-        <div class="item">
-            <h1>kitsune </h1>
-            <div class="img img1"></div>
-           <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
+        <div class="cont">
+            <div class="item">
+                <h1>saxa </h1>
+                <div class="img img7"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <section id="mmm"></section>
+                <div class="img img8"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
+            <div class="item">
+                <h1>murad </h1>
+                <div class="img img9"></div>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti,
+                    odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus.
+                    Corporis, quas.</p>
+            </div>
         </div>
-        <div class="item">
-            <h1>nanapoly  </h1>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
-        </div>
-        <div class="item">  <h1>vm  </h1>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p></div>
-    </div>  <div class="cont">
-        <div class="item">
-            <h1>saxa  </h1>
-            <div class="img img1"></div>
-           <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
-        </div>
-        <div class="item">
-          <section id="mmm"></section>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p>
-        </div>
-        <div class="item">  <h1>murad  </h1>
-            <div class="img img1"></div>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis rerum sint eligendi deleniti, odio ipsam molestiae ex ipsa. Odit perferendis provident omnis quae sunt eaque dolore quo delectus. Corporis, quas.</p></div>
-    </div>
-   
-   
+
+    </main>
+
 </body>
+
 </html>
