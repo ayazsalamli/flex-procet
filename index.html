@@ -27,6 +27,7 @@
             height: 70px;
             background-color: lime;
             padding: 20px;
+            position: sticky;
         }
 
         aside {
@@ -79,6 +80,54 @@
             border-radius: 50%;
             margin: 10px auto;
         }
+        
+        .grid{
+            display: grid;
+            gap: 5px;
+            height: 70%;
+            grid-template-areas: 
+            'header header header header header header'
+            'menu main main main right  right'
+            'footer footer footer footer footer footer '
+            ;
+        }
+        .grid > div{
+            background-color: #84ff84;
+            padding: 20px;
+        }
+
+        .item1{
+            grid-area: header;
+            background-image: url(1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .item2{
+            grid-area: main;
+            background-image: url(2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .item3{
+            grid-area: menu;
+            background-image: url(nininint.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .item4{
+            grid-area: right;
+            background-image: url(5.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+        .item5{
+            grid-area: footer;
+            background-image: url(4.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
 
         .img1 {
             background-image: url(4.jpg);
@@ -128,6 +177,14 @@
         <button>Contact</button>
     </aside>
     <main>
+        <div class="grid">
+            <div class="item1"></div>
+            <div class="item3"></div>
+            <div class="item2"></div>
+            <div class="item4"></div>
+            <div class="item5">mudik</div>
+        </div>
+    
         <div class="cont">
             <div class="item">
                 <h1 sektion="#aaa">murad </h1>
